@@ -1,0 +1,36 @@
+/* Medicare hero section */
+.medicare-hero {
+  min-height: 550px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Appointment modal */
+.medicare-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.65);
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.medicare-modal-overlay .modal-dialog {
+  width: 100%;
+  max-width: 800px;
+}
+
+.medicare-modal-overlay .modal-content {
+  background: white;
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .medicare-hero {
+    min-height: 400px;
+  }
+}
